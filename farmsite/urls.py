@@ -18,11 +18,11 @@ from django.contrib import admin
 
 urlpatterns = [
     # homepage
-    url(r'^$', include('webapp.urls')),
+    # url(r'^', include('webapp.urls')),
 
     # admin site
     url(r'^admin/', admin.site.urls),
 
     # webpage, same as home right now
-    url(r'^webapp/', include('webapp.urls')),
+    # url(r'^webapp/', include('webapp.urls')),
 ]
